@@ -25,26 +25,26 @@ public class ProbA {
 		while((t--)>0) {
 			count=0;
 			searchEngines.clear();
+			searchEngineList.clear();
 			caseNumber++;
 			n = Integer.parseInt(br.readLine());
 			for(i=0;i<n;i++){
-				String engine = br.readLine();
+				searchEngineList.add(br.readLine());
 			}
 			
 			k = Integer.parseInt(br.readLine());
-			int localcount = 0;
+			searchEngines.addAll(searchEngineList);
 			for(i=0;i<k;i++){
 				String query = br.readLine();
 				if(searchEngines.contains(query)){
-					localcount++;
-				} else {
-					searchEngines.add(query);
+					searchEngines.remove(query);
 				}
-				if(localcount==n){
-					localcount=0;
+				if(searchEngines.size() == 0) {
 					count++;
+					searchEngines.clear();
+					searchEngines.addAll(searchEngineList);
+					searchEngines.remove(query);
 				}
-				
 			}
 			
 	
