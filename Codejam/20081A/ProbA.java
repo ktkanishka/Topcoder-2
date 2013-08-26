@@ -20,25 +20,26 @@ public class ProbA {
 	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	
 	int t = Integer.parseInt(br.readLine());
-	
+	int count=1;
 	while((t--)>0){
-		ArrayList<Integer> list1 = new ArrayList<>();
-		ArrayList<Integer> list2 = new ArrayList<>();
+	
+		ArrayList<Long> list1 = new ArrayList<>();
+		ArrayList<Long> list2 = new ArrayList<>();
 		
 		int n=Integer.parseInt(br.readLine());
 		String x[] = br.readLine().split("[ ]");
 		String y[] = br.readLine().split("[ ]");
 		
 		for(int i=0;i<x.length;i++)
-		list1.add(Integer.parseInt(x[i]));
+		list1.add(Long.parseLong(x[i]));
 		
 		for(int i=0;i<y.length;i++)
-			list2.add(Integer.parseInt(y[i]));
+			list2.add(Long.parseLong(y[i]));
 		
-		Collections.sort(list1 , new Comparator<Integer>() {
+		Collections.sort(list1 , new Comparator<Long>() {
 
 			@Override
-			public int compare(Integer o1, Integer o2) {
+			public int compare(Long o1, Long o2) {
 				if(o1 < o2){
 					return 1;
 				} else if(o1 > o2) {
@@ -50,17 +51,17 @@ public class ProbA {
 		});
 		
 		Collections.sort(list2);
-		int product1 = 0;
+		long product1 = 0;
 		for(int i=0;i<list1.size();i++){
 			product1 = product1 +( list1.get(i) * list2.get(i) );
 		}
 		
 		
 
-		Collections.sort(list2 , new Comparator<Integer>() {
+		Collections.sort(list2 , new Comparator<Long>() {
 
 			@Override
-			public int compare(Integer o1, Integer o2) {
+			public int compare(Long o1, Long o2) {
 				if(o1 < o2){
 					return 1;
 				} else if(o1 > o2) {
@@ -72,16 +73,16 @@ public class ProbA {
 		});
 		
 		Collections.sort(list1);
-		int product2 = 0;
+		long product2 = 0;
 		for(int i=0;i<list2.size();i++){
 			product2 = product2 +( list1.get(i) * list2.get(i) );
 		}
 		
 		
 		if(product1 < product2)
-			System.out.println(product1);
+			System.out.println("Case #"+(count++)+": "+product1);
 		else
-			System.out.println(product2);
+			System.out.println("Case #"+(count++)+": "+product2);
 			
 			
 	}
