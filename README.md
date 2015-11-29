@@ -7,4 +7,6 @@ Solutions to practice problems to track my progress.
 
 [Coin change problem](HackerRank/CoinChange/Solution.java)
 
-[Grid searach](HackerRank/GridSearch/main.c)
+[Grid search](HackerRank/GridSearch/main.c)
+
+[Extra long factorials](HackerRank/ExtraLongFactorials/main.c)
