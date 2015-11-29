@@ -1,4 +1,8 @@
 Topcoder
 ========
 
-Solutions to Topcoder problems and Google codejam to track my progress
+Solutions to practice problems to track my progress.
+
+* HackerRank
+
+[Coin change problem](HackerRank/CoinChange/Solution.java)
