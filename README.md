@@ -12,3 +12,5 @@ Solutions to practice problems to track my progress.
 [Extra long factorials](HackerRank/ExtraLongFactorials/main.c)
 
 [Samu And Shopping](HackerEarth/SamuAndShopping/main.c)
+
+[Vibhu And His Maths](HackerEarth/VibhuAndMaths/main.c)
