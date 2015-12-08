@@ -10,3 +10,5 @@ Solutions to practice problems to track my progress.
 [Grid search](HackerRank/GridSearch/main.c)
 
 [Extra long factorials](HackerRank/ExtraLongFactorials/main.c)
+
+[Samu And Shopping](HackerEarth/SamuAndShopping/main.c)
