@@ -14,3 +14,7 @@ Solutions to practice problems to track my progress.
 [Samu And Shopping](HackerEarth/SamuAndShopping/main.c)
 
 [Vibhu And His Maths](HackerEarth/VibhuAndMaths/main.c)
+
+[Buying Apples!](Spoj/ABA12C/main.c)
+
+[Alphacode](Spoj/ACODE/main.c)
