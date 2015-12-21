@@ -15,6 +15,10 @@ Solutions to practice problems to track my progress.
 
 [Vibhu And His Maths](HackerEarth/VibhuAndMaths/main.c)
 
+[Samu and Shooting Game](HackerEarth/SamuAndShootingGame/TestClass.java)
+
 [Buying Apples!](Spoj/ABA12C/main.c)
 
 [Alphacode](Spoj/ACODE/main.c)
+
+[Die Hard](Spoj/DIEHARD/Main.java)
