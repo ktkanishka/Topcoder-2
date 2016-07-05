@@ -2,7 +2,6 @@
 250 point problem.
 Bruteforce and calculate the minimum distance between AB, AC and BC and select the sum of two minimum values
 */
-
 public class ATaleOfThreeCities {
 	public double connect(int[] ax, int[] ay, int[] bx, int[] by, int[] cx, int[] cy) {
         double miniAB = 9999;
