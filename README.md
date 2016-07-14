@@ -22,3 +22,9 @@ Solutions to practice problems to track my progress.
 [Alphacode](Spoj/ACODE/main.c)
 
 [Die Hard](Spoj/DIEHARD/Main.java)
+
+[Connected Cell In A Grid](HackerRank/ConnectedCellInAGrid/Solution.java)
+
+[A Tale Of Three Cities](Topcoder/ATaleOfThreeCities.java)
+
+[Merge Sort](misc/mergesort/src/main/java/mergesort/MergeSort.java)
